@@ -19,6 +19,15 @@ const styles ={
         borderColor:'#6495ED',
         width:200
      },
+     row1:{
+         
+        padding: 20,
+        backgroundColor:'green',
+        paddingLeft:5,
+        borderWidth:10,
+        borderColor:'#6495ED',
+        width:200
+     },
      title:{
          color:'white',
          fontSize:60
