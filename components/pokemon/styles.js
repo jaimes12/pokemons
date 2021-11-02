@@ -41,6 +41,10 @@ const styles ={
         padding: 8,
         borderRadius: 8,
         backgroundColor:'green'
+     },
+     imag:{
+         width:50,
+         height:50
      }
 }
 

@@ -12,7 +12,7 @@ const [pokemons, setPokenons] = useState( [] );
 
 const getPokemons = async () =>{
     try{
-        const res= await axios.get(`${CONSTANST.BASE_API_URL}?limit=10`);
+        const res= await axios.get(`${CONSTANST.BASE_API_URL}?limit=150`);
         setPokenons(res.data.results);
        
     } catch(error){
@@ -34,7 +34,7 @@ useEffect(()=>{
 <ScrollView>
     {pokemons.map((pokemon) =>(
     <Pokemon pokemon={pokemon}/>
-         ))}   
+     ))}   
         
 </ScrollView>
 
