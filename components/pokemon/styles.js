@@ -9,15 +9,20 @@ const styles ={
         marginTop:40,
         alignItems: 'center',
         justifyContent:'center',
-        backgroundColor:'red'
+        backgroundColor:'#EF8277'
     },
     row:{
-        padding: 20,
+        flexDirection:'row',
+        alignItems: 'center',
+        justifyContent:'flex-end',
+        paddingHorizontal: 8,
+        paddingVertical:5,
         backgroundColor:'#87CEFA',
         paddingLeft:5,
         borderWidth:10,
         borderColor:'#6495ED',
-        width:200
+        
+        borderRadius:10,
      },
      row1:{
          
@@ -32,10 +37,10 @@ const styles ={
          color:'white',
          fontSize:60
      },
-     type:{
+     typePokemon:{
          padding: 8,
          borderRadius: 8,
-         backgroundColor:'green'
+         backgroundColor:'#eb3453'
      },
      name:{
         padding: 8,
@@ -45,7 +50,22 @@ const styles ={
      imag:{
          width:50,
          height:50
-     }
+     },
+     namePokemon:{
+        alignItems: 'center',
+        
+        
+        fontWeight:'bold' ,
+        
+        padding:5
+     },
+     poima:{
+        width:150,
+        height:100,
+        alignItems: 'center',
+        paddingLeft:25,
+     },
+     
 }
 
 const styleSheet = StyleSheet.create(styles);
